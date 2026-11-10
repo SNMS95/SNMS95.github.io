@@ -6,7 +6,7 @@
   venue: arXiv preprint
   year: 2026
   doi: ""
-  arxiv: ""
+  arxiv: "https://arxiv.org/abs/2609.21758"
   pdf: ""
   code: ""
   codeNote: Implemented in CRAX (open-source release coming soon)
@@ -17,9 +17,9 @@
   authors: S. M. Sanu et al.
   venue: Structural and Multidisciplinary Optimization
   year: 2026
-  doi: ""
+  doi: "10.1007/s00158-026-04299-6"
   arxiv: ""
-  pdf: ""
+  pdf: "https://doi.org/10.1007/s00158-026-04299-6"
   code: ""
   codeNote: ""
   bibtex: ""
@@ -31,7 +31,7 @@
   year: 2025
   doi: 10.1007/s00158-025-04135-3
   arxiv: ""
-  pdf: ""
+  pdf: "https://doi.org/10.1007/s00158-025-04135-3"
   code: ""
   codeNote: ""
   bibtex: |-

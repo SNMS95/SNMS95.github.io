@@ -18,7 +18,7 @@ projects:
     url: https://github.com/SNMS95/CAD_LAYOUT_PRED
     status: ""
     # Wording from the repository's public description; Surya to extend.
-    blurb: 2D objects to CAD layout using graph neural networks.
+    blurb: List of 2D objects to CAD layout using graph neural networks and diffusion.
 
 contributions:
   - name: JAX-FEM
@@ -27,3 +27,5 @@ contributions:
     url: https://github.com/bessagroup/f3dasm
   - name: 3dasm_course
     url: https://github.com/bessagroup/3dasm_course
+  - name: metatopia
+    url: https://github.com/bessagroup/metatopia 

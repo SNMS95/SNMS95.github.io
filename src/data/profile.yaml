@@ -1,0 +1,25 @@
+# Source: jobs/profile/facts.md. Edit here, not in the components.
+name: Surya Manoj Sanu
+location: The Netherlands
+role: PhD, Delft AI Lab, TU Delft
+# Short intro; every claim here traces to facts.md (PhD programme, thesis title, CRAX).
+intro:
+  - >-
+    I build machine learning methods for physical simulation and design. My PhD
+    at the Delft AI Lab (TU Delft; thesis submitted) is on neural
+    reparameterization, hypergradients and bilevel optimization for topology
+    optimization.
+  - >-
+    I founded and co-develop CRAX, a JAX framework for large-scale,
+    ML-integrated topology optimization.
+links:
+  - label: GitHub
+    url: https://github.com/SNMS95
+  - label: ORCID
+    url: https://orcid.org/0000-0003-1991-5932
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/snms
+  - label: Email
+    url: mailto:sm95sanu@gmail.com
+  - label: CV
+    url: /cv.pdf

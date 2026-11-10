@@ -1,0 +1,48 @@
+---
+import type { Paper } from '../lib/data';
+
+interface Props {
+  paper: Paper;
+}
+const { paper } = Astro.props;
+
+// A button appears only when its link is filled in.
+const doiUrl = paper.doi ? `https://doi.org/${paper.doi}` : '';
+const arxivUrl = paper.arxiv ? (paper.arxiv.startsWith('http') ? paper.arxiv : `https://arxiv.org/abs/${paper.arxiv}`) : '';
+const links = [
+  { label: 'DOI', url: doiUrl },
+  { label: 'arXiv', url: arxivUrl },
+  { label: 'PDF', url: paper.pdf },
+  { label: 'Code', url: paper.code },
+].filter((l) => l.url);
+---
+
+<article class="paper" id={paper.id}>
+  <div class="year">{paper.year}</div>
+  <div>
+    <h3>{paper.title}</h3>
+    <p class="authors">{paper.authors}</p>
+    <p class="venue">{paper.venue}</p>
+    {paper.codeNote && <p class="note">{paper.codeNote}</p>}
+    {
+      (links.length > 0 || paper.bibtex) && (
+        <ul class="pills">
+          {links.map((l) => (
+            <li>
+              <a class="pill" href={l.url}>
+                {l.label}
+              </a>
+            </li>
+          ))}
+          {paper.bibtex && (
+            <li>
+              <button type="button" class="pill copy-bib" data-bibtex={paper.bibtex}>
+                <span aria-live="polite">BibTeX</span>
+              </button>
+            </li>
+          )}
+        </ul>
+      )
+    }
+  </div>
+</article>

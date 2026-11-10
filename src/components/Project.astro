@@ -1,0 +1,16 @@
+---
+import type { Project } from '../lib/data';
+
+interface Props {
+  project: Project;
+}
+const { project } = Astro.props;
+---
+
+<div class="project">
+  <span class="name">
+    {project.url ? <a href={project.url}>{project.name}</a> : project.name}
+  </span>
+  {project.status && <span class="status">{project.status}</span>}
+  <p>{project.blurb}</p>
+</div>

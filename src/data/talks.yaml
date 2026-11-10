@@ -1,0 +1,7 @@
+# Source: jobs/profile/facts.md (Talks)
+- name: USNCCM
+  full: U.S. National Congress on Computational Mechanics
+  years: "2023"
+- name: WCSMO
+  full: World Congress of Structural and Multidisciplinary Optimization
+  years: 2023, 2025

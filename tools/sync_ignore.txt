@@ -1,0 +1,15 @@
+# Repositories that tools/sync_github.py should not report (owner/repo, one per line, # for comments).
+# Decisions as of 2026-11-10; delete a line to have the repo reported again.
+
+# Merged PRs that are deliberately not on the site (the contributions list is name-only:
+# JAX-FEM, f3dasm, 3dasm_course).
+Ukyth/Capstone-Group-8
+CMSL-HKUST/jax-am        # covered by the JAX-FEM entry
+
+# Own repositories not featured.
+SNMS95/LearnLLM
+SNMS95/ai_hack_mobility_2026
+SNMS95/tensorflow_optimization_functions
+SNMS95/example-ci
+SNMS95/binder-share-ntbk
+SNMS95/SNMS95

@@ -1,0 +1,29 @@
+# Projects are Surya's own; contributions are other people's repositories (name only, by his choice).
+# Sources: jobs/profile/facts.md (Software) and the public GitHub record of SNMS95.
+projects:
+  - name: CRAX
+    url: ""
+    status: Open-source release coming soon
+    blurb: >-
+      JAX framework for large-scale, ML-integrated topology optimization with
+      differentiable finite-element analysis, up to 3M design variables. Also
+      hosts BOTH. Founded and co-developed.
+  - name: ADTO
+    url: https://github.com/SNMS95/ADTO
+    status: ""
+    blurb: >-
+      Educational automatic-differentiation sandbox: Keras API with PyTorch and
+      JAX backends and lightweight FEA solvers.
+  - name: CAD_LAYOUT_PRED
+    url: https://github.com/SNMS95/CAD_LAYOUT_PRED
+    status: ""
+    # Wording from the repository's public description; Surya to extend.
+    blurb: 2D objects to CAD layout using graph neural networks.
+
+contributions:
+  - name: JAX-FEM
+    url: https://github.com/deepmodeling/jax-fem
+  - name: f3dasm
+    url: https://github.com/bessagroup/f3dasm
+  - name: 3dasm_course
+    url: https://github.com/bessagroup/3dasm_course

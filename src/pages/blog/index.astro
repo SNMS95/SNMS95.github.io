@@ -1,0 +1,13 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostList from '../../components/PostList.astro';
+import { getPublishedPosts } from '../../lib/posts';
+
+const posts = await getPublishedPosts();
+---
+
+<Base title="Writing · Surya Manoj Sanu" description="Short notes on what I am learning.">
+  <h1>Writing</h1>
+  <p class="role">Short notes on what I am learning.</p>
+  {posts.length > 0 ? <PostList posts={posts} /> : <p>Nothing here yet.</p>}
+</Base>

@@ -1,0 +1,46 @@
+# Newest first. Empty fields hide the matching button. Source: jobs/profile/facts.md (Publications).
+# TODO(Surya): full author lists for the first two; arXiv link for BOTH; DOI for the AD paper.
+- id: both
+  title: Bilevel Optimization of Topology and Hyperparameters (BOTH)
+  authors: S. M. Sanu et al.
+  venue: arXiv preprint
+  year: 2026
+  doi: ""
+  arxiv: ""
+  pdf: ""
+  code: ""
+  codeNote: Implemented in CRAX (open-source release coming soon)
+  bibtex: ""
+
+- id: ad-for-to
+  title: Leveraging automatic differentiation in modern machine learning frameworks for (neural) topology optimization
+  authors: S. M. Sanu et al.
+  venue: Structural and Multidisciplinary Optimization
+  year: 2026
+  doi: ""
+  arxiv: ""
+  pdf: ""
+  code: ""
+  codeNote: ""
+  bibtex: ""
+
+- id: neural-to
+  title: "Neural topology optimization: the good, the bad, and the ugly"
+  authors: S. M. Sanu, A. M. Aragón and M. A. Bessa
+  venue: Structural and Multidisciplinary Optimization 68, 213
+  year: 2025
+  doi: 10.1007/s00158-025-04135-3
+  arxiv: ""
+  pdf: ""
+  code: ""
+  codeNote: ""
+  bibtex: |-
+    @article{sanu2025neural,
+      title   = {Neural topology optimization: the good, the bad, and the ugly},
+      author  = {Sanu, Surya Manoj and Arag{\'o}n, Alejandro M. and Bessa, Miguel A.},
+      journal = {Structural and Multidisciplinary Optimization},
+      volume  = {68},
+      pages   = {213},
+      year    = {2025},
+      doi     = {10.1007/s00158-025-04135-3}
+    }
